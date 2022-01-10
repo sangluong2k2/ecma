@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="max-w-5xl mx-auto">
+    <header>
+      <div class="bg-blue-800 py-4">
+        <a href="">
+          1
+          <img src="./images/logo.png" class="mx-auto" alt="">
+        </a>
+      </div>
+      <div class="bg-orange-500">
+        <ul class="flex">
+          <li><a href="/" class="block px-4 py-3 hover:bg-indigo-500 hover:text-white font-bold">Trang chủ </a></li>
+          <li><a href="/about" class="block px-4 py-3 hover:bg-indigo-500 hover:text-white font-bold">Tuyển sinh</a></li>
+          <li><a href="/product" class="block px-4 py-3 hover:bg-indigo-500 hover:text-white font-bold">Chương trình đào tạo</a></li>
+          <li><a href="/contact" class="block px-4 py-3 hover:bg-indigo-500 hover:text-white font-bold">Góc sinh viên</a></li>
+          <li><a href="/contact" class="block px-4 py-3 hover:bg-indigo-500 hover:text-white font-bold">Tuyển dụng</a></li>
+          <form action="" class="ml-[70px] mt-[10px]">
+            <input type="text">
+            <button class="border bg-blue-800 ... px-[5px] text-white ... border-none">Tìm kiếm</button>
+          </form>
+        </ul>
+      </div>
+    </header>
+    <div id="app"></div>
+    <footer class="bg-blue-800 text-center py-4 mt-4">
+      <p class="m-0 text-white">Lương Duy Sang</p>
+    </footer>
+  </div>
+  <!-- <div class=" max-w-5xl m-auto ">
+    <header class=" grid pb-[10px]" id="header">
+      <div class="logo bg-[#191e35]" id="logo">
+        <a href=""><img src="./images/logo.png" class="mx-auto" alt=""></a>
+      </div>
+      <div class="bg-[#ca7802] flex ">
+        <ul class="flex text-white m-[10px]">
+          <li class="mx-[10px] hover:text-black hover:underline font-bold"><a href="/">Trang chủ</a></li>
+          <li class="mx-[10px] hover:text-black hover:underline font-bold"><a href="">Tuyển sinh</a></li>
+          <li class="mx-[10px] hover:text-black hover:underline font-bold"> <a href="">Chương trình đạo tạo</a></li>
+          <li class="mx-[10px] hover:text-black hover:underline font-bold"><a href="">Góc sinh viên</a></li>
+          <li class="mx-[10px] hover:text-black hover:underline font-bold"><a href="">Tuyển dụng</a></li>
+        </ul>
+        <form action="" class="ml-[70px] mt-[10px]">
+          <input type="text">
+          <button class="border bg-blue-800 ... px-[5px] text-white ... border-none">Tìm kiếm</button>
+        </form>
+      </div>
+    </header>
+    <nav class="pb-[20px]" id="banner">
+      <img src="./images/FPT_Polytechnic_Covid-3.png" class=" object-cover w-full my-[10px] h-80" alt="" name="slide" id="anh">
+      <script>
+        var i=0;
+        var images=[];
+        images[0] = "./images/FPT_Polytechnic_Covid-3.png";
+        images[1] = "./images/ab9a0cb3-0380-4f77-85a7-ab3a65ec903b.jpg";
+        images[2] = "./images/Banner-Web-7.png";
+        function changeImage() {
+          document.slide.src = images[i];
+          if(i < images.length - 1){
+            i++
+          }else{
+            i=0;
+          }
+    
+          setTimeout("changeImage()", 3000);
+        }
+        window.onload = changeImage;
+      </script>
+    </nav>
+    <article class="pb-[20px]">
+      <h2 class="text-[#12151e] font-bold font-[24px]">TIN TỨC HOẠT ĐỘNG</h2>
+      <div class="grid grid-cols-3  my-[10px] gap-4">
+        <div class="border-solid border-2">
+          <img src="https://picsum.photos/250/200" alt="" class="mx-auto my-[10px]">
+          <h3 class="text-[#974915] ml-[36px] mb-[10px] font-bold text-[18px]">Vinh danh 295 sinh viên FPT Polytechnic
+            học kỳ Spring 2018</h3>
+          <p class="ml-[36px] text-[14px] pb-[10px]">Tối ngày 16/06/2018, Cao đẳng FPT Polytechnic Hà Nội đã tổ chức Lễ
+            tôn vinh "Ong Vàng Poly" tuyên dương 295 cá nhân và tập thể có thành tích xuất sắc trong học tập </p>
+        </div>
+        <div class="border-solid border-2">
+          <img src="https://picsum.photos/250/200" alt="" class="mx-auto my-[10px]">
+          <h3 class="text-[#974915] ml-[36px] mb-[10px] font-bold text-[18px]">Vinh danh 295 sinh viên FPT Polytechnic
+            học kỳ Spring 2018</h3>
+          <p class="ml-[36px] text-[14px] pb-[10px]">Tối ngày 16/06/2018, Cao đẳng FPT Polytechnic Hà Nội đã tổ chức Lễ
+            tôn vinh "Ong Vàng Poly" tuyên dương 295 cá nhân và tập thể có thành tích xuất sắc trong học tập </p>
+        </div>
+        <div class="border-solid border-2">
+          <img src="https://picsum.photos/250/200" alt="" class="mx-auto my-[10px]">
+          <h3 class="text-[#974915] ml-[36px] mb-[10px] font-bold text-[18px]">Vinh danh 295 sinh viên FPT Polytechnic
+            học kỳ Spring 2018</h3>
+          <p class="ml-[36px] text-[14px] pb-[10px]">Tối ngày 16/06/2018, Cao đẳng FPT Polytechnic Hà Nội đã tổ chức Lễ
+            tôn vinh "Ong Vàng Poly" tuyên dương 295 cá nhân và tập thể có thành tích xuất sắc trong học tập </p>
+        </div>
+      </div>
+
+      /----------------------------------------/
+      <h2 class="text-[#12151e] font-bold font-[24px] ">HOẠT ĐỘNG SINH VIÊN</h2>
+      <div class="grid grid-cols-3  my-[10px] gap-4">
+        <div class="border-solid border-2">
+          <img src="https://picsum.photos/250/200" alt="" class="mx-auto my-[10px]">
+          <h3 class="text-[#974915] ml-[36px] mb-[10px] font-bold text-[18px]">Vinh danh 295 sinh viên FPT Polytechnic
+            học kỳ Spring 2018</h3>
+          <p class="ml-[36px] text-[14px] pb-[10px]">Tối ngày 16/06/2018, Cao đẳng FPT Polytechnic Hà Nội đã tổ chức Lễ
+            tôn vinh "Ong Vàng Poly" tuyên dương 295 cá nhân và tập thể có thành tích xuất sắc trong học tập </p>
+        </div>
+        <div class="border-solid border-2">
+          <img src="https://picsum.photos/250/200" alt="" class="mx-auto my-[10px]">
+          <h3 class="text-[#974915] ml-[36px] mb-[10px] font-bold text-[18px]">Vinh danh 295 sinh viên FPT Polytechnic
+            học kỳ Spring 2018</h3>
+          <p class="ml-[36px] text-[14px] pb-[10px]">Tối ngày 16/06/2018, Cao đẳng FPT Polytechnic Hà Nội đã tổ chức Lễ
+            tôn vinh "Ong Vàng Poly" tuyên dương 295 cá nhân và tập thể có thành tích xuất sắc trong học tập </p>
+        </div>
+        <div class="border-solid border-2">
+          <img src="https://picsum.photos/250/200" alt="" class="mx-auto my-[10px]">
+          <h3 class="text-[#974915] ml-[36px] mb-[10px] font-bold text-[18px]">Vinh danh 295 sinh viên FPT Polytechnic
+            học kỳ Spring 2018</h3>
+          <p class="ml-[36px] text-[14px] pb-[10px]">Tối ngày 16/06/2018, Cao đẳng FPT Polytechnic Hà Nội đã tổ chức Lễ
+            tôn vinh "Ong Vàng Poly" tuyên dương 295 cá nhân và tập thể có thành tích xuất sắc trong học tập </p>
+        </div>
+      </div>
+    </article>
+    <footer class="pb-[20px] bg-[#191e35]">
+      <h1 class="text-white text-center text-[20px] pt-[20px]">LƯƠNG DUY SANG</h1>
+    </footer>
+
+  </div> -->
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
